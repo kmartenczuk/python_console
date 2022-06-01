@@ -4,7 +4,7 @@ Python console apps for data
 ## 1) VTE View to Table Engine
 > Console
 
-![vte1](https://user-images.githubusercontent.com/59306140/171511283-ac9d397b-1d53-4d28-962a-e78ca713e012.PNG)
+![vte1](https://user-images.githubusercontent.com/59306140/171512935-43eb3fd3-137b-4d46-9b1d-1b068186a7b9.jpg)
 
 
 #### Description: 
