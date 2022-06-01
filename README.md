@@ -10,7 +10,7 @@ Python console apps for data
 #### Description: 
 To copy data from views to tables we need sql database config file and name of view and table only.
 
-- First we enter path and name of sql config file (remember - file should be created with json format).
+- First we enter path and name of sql config file (.json format).
 - Next app will ask for name of schema view and table.
 
 **vte.py**
