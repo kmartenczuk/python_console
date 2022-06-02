@@ -121,7 +121,7 @@ def VTE(source: SQLObject, destination: SQLObject, SQLConnection: SQLConn):
     conn0.close()
     return None
 ```
-The application helps in mass conversion of values to static tables.
+The application helps in data conversion to static tables.
 
 ## 2) CTE CSV to SQL Table Exporter
 > Console
@@ -221,7 +221,7 @@ def CTE(source: CSVFile, destination: SQLObject, SQLConnection: SQLConn):
     conn0.close()
     return 0
 ```
-The application helps in mass export of values from CSV files to static tables.
+The application helps in data export from CSV files to static tables.
 
 Best Regards
 
