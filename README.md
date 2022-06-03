@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
 ### Requirements
 
-**martenczuk 0.1.7**
+**>martenczuk 0.1.6**
 
 ```
 pip install martenczuk
@@ -115,7 +115,6 @@ def VTE(source: SQLObject, destination: SQLObject, SQLConnection: SQLConn):
             try: cursor.execute(""" Insert into """ + destination + """ (""" + cols_string + """) VALUES (""" + values_string + """)""")
             except: pass
             cursor.commit()
-            time.sleep(1)
         print(Fore.GREEN + " \n Success \n ")
     except: print(Fore.RED + " \n Error \n ")       
     conn0.close()
@@ -126,7 +125,7 @@ The application helps in data conversion to static tables.
 ## 2) CTE CSV to SQL Table Exporter
 > Console
 
-![cte1](https://user-images.githubusercontent.com/59306140/171689013-e4c952c9-8cc0-4930-b4c6-b9b487fe4826.PNG)
+![cte1](https://user-images.githubusercontent.com/59306140/171796862-6415709d-2f18-45e9-823b-43309da6a12b.jpg)
 
 
 #### Description: 
@@ -180,7 +179,7 @@ if __name__ == "__main__":
 
 ### Requirements
 
-**martenczuk 0.2.3**
+**>martenczuk 0.2.3**
 
 ```
 pip install martenczuk
@@ -215,7 +214,6 @@ def CTE(source: CSVFile, destination: SQLObject, SQLConnection: SQLConn):
                 try: cursor.execute(""" Insert into """ + destination.fullname + """ (""" + col_string + """) VALUES (""" + values_string + """)""")
                 except: pass
                 cursor.commit()
-                time.sleep(1)
             print(Fore.GREEN + " \n Success \n ")
     except: print(Fore.RED + " \n Error \n ")
     conn0.close()
